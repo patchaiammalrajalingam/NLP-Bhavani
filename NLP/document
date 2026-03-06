@@ -1,0 +1,19 @@
+Run Backend
+
+uvicorn main:app --reload
+
+Run Frontend
+
+npm start
+
+Enter text like:
+
+I hate you
+
+ Output:
+
+Toxic (Score: 0.91)
+
+
+install:
+pip install fastapi uvicorn scikit-learn
